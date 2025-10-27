@@ -1,0 +1,55 @@
+{% extends "layout.html" %}
+
+{% block title %}Mi Horario{% endblock %}
+
+{% block content %}
+<div class="min-h-screen p-6">
+    <div class="max-w-6xl mx-auto bg-white rounded-xl shadow-lg p-8">
+        <div class="flex justify-between items-center mb-8">
+            <div>
+                <h2 class="text-2xl font-semibold text-gray-800">
+                    Mi Horario
+                </h2>
+                <p class="text-gray-600">
+                    Bienvenido, {{ user.email }}
+                </p>
+            </div>
+            <a
+                href="{{ url_for('logout') }}"
+                class="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors duration-200"
+            >
+                Cerrar Sesión
+            </a>
+        </div>
+
+        {% if horarios %}
+        <div class="grid grid-cols-7 gap-4 mb-8">
+            {% set dias = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado', 'Domingo'] %}
+            {% for dia in dias %}
+            <div class="bg-gray-50 p-4 rounded-lg">
+                <h3 class="font-semibold text-gray-700 mb-2">{{ dia }}</h3>
+                {% set found = false %}
+                {% for horario in horarios %}
+                    {% if horario.dia == dia %}
+                        {% set found = true %}
+                        <div class="bg-white p-3 rounded shadow-sm mb-2">
+                            <p class="font-medium text-teal-600">{{ horario.materia }}</p>
+                            <p class="text-sm text-gray-600">{{ horario.hora_inicio }} - {{ horario.hora_fin }}</p>
+                            <p class="text-sm text-gray-500">Salón: {{ horario.salon }}</p>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+                {% if not found %}
+                    <p class="text-sm text-gray-400">No hay clases</p>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
+        <div class="text-center py-8">
+            <p class="text-gray-600">No tienes horarios asignados.</p>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

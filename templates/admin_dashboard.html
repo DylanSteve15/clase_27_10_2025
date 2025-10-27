@@ -1,0 +1,178 @@
+{% extends "layout.html" %}
+
+{% block title %}Panel de Administración{% endblock %}
+
+{% block content %}
+<div class="min-h-screen p-6">
+    <div class="max-w-6xl mx-auto bg-white rounded-xl shadow-lg p-8">
+        <div class="flex justify-between items-center mb-8">
+            <div>
+                <h2 class="text-2xl font-semibold text-gray-800">
+                    Panel de Administración
+                </h2>
+                <p class="text-gray-600">
+                    Administrador: {{ user.nombre if user.nombre else user.email }}
+                </p>
+            </div>
+            <div class="flex gap-4">
+                <a
+                    href="{{ url_for('users') }}"
+                    class="px-4 py-2 bg-teal-600 text-white rounded-lg hover:bg-teal-700 transition-colors duration-200"
+                >
+                    Ver Usuarios
+                </a>
+                <a
+                    href="{{ url_for('logout') }}"
+                    class="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors duration-200"
+                >
+                    Cerrar Sesión
+                </a>
+            </div>
+        </div>
+
+        <!-- Formulario para crear nuevo horario -->
+        <div class="bg-gray-50 p-6 rounded-lg mb-8">
+            <h3 class="text-lg font-medium text-gray-800 mb-4">Crear Nuevo Horario</h3>
+            <form id="horarioForm" class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <select name="dia" class="px-4 py-2 border rounded-lg" required>
+                    <option value="">Seleccionar día</option>
+                    <option>Lunes</option>
+                    <option>Martes</option>
+                    <option>Miércoles</option>
+                    <option>Jueves</option>
+                    <option>Viernes</option>
+                    <option>Sábado</option>
+                    <option>Domingo</option>
+                </select>
+                <input
+                    type="time"
+                    name="hora_inicio"
+                    class="px-4 py-2 border rounded-lg"
+                    required
+                >
+                <input
+                    type="time"
+                    name="hora_fin"
+                    class="px-4 py-2 border rounded-lg"
+                    required
+                >
+                <input
+                    type="text"
+                    name="materia"
+                    placeholder="Materia"
+                    class="px-4 py-2 border rounded-lg"
+                    required
+                >
+                <input
+                    type="email"
+                    name="docente"
+                    placeholder="Email del docente"
+                    class="px-4 py-2 border rounded-lg"
+                    required
+                >
+                <input
+                    type="text"
+                    name="salon"
+                    placeholder="Salón"
+                    class="px-4 py-2 border rounded-lg"
+                    required
+                >
+                <button
+                    type="submit"
+                    class="px-6 py-2 bg-teal-600 text-white rounded-lg hover:bg-teal-700 transition-colors duration-200"
+                >
+                    Crear Horario
+                </button>
+            </form>
+        </div>
+
+        <!-- Tabla de horarios -->
+        <div class="overflow-x-auto">
+            <table class="min-w-full divide-y divide-gray-200">
+                <thead>
+                    <tr class="bg-gray-50">
+                        <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Día</th>
+                        <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Hora</th>
+                        <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Materia</th>
+                        <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Docente</th>
+                        <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Salón</th>
+                        <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody class="bg-white divide-y divide-gray-200">
+                    {% for horario in horarios %}
+                    <tr>
+                        <td class="px-6 py-4 whitespace-nowrap">{{ horario.dia }}</td>
+                        <td class="px-6 py-4 whitespace-nowrap">{{ horario.hora_inicio }} - {{ horario.hora_fin }}</td>
+                        <td class="px-6 py-4 whitespace-nowrap">{{ horario.materia }}</td>
+                        <td class="px-6 py-4 whitespace-nowrap">{{ horario.docente }}</td>
+                        <td class="px-6 py-4 whitespace-nowrap">{{ horario.salon }}</td>
+                        <td class="px-6 py-4 whitespace-nowrap">
+                            <button
+                                type="button"
+                                data-horario-id="{{ horario.id }}"
+                                class="text-red-600 hover:text-red-900 delete-horario"
+                            >
+                                🗑️ Eliminar
+                            </button>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block extra_js %}
+<script>
+document.getElementById('horarioForm').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const formData = new FormData(e.target);
+    const horario = Object.fromEntries(formData.entries());
+    
+    try {
+        const response = await fetch('/horario/create', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(horario)
+        });
+
+        if (response.ok) {
+            location.reload();
+        } else {
+            const error = await response.json();
+            alert(error.error || 'Error al crear el horario');
+        }
+    } catch (error) {
+        alert('Error de conexión');
+    }
+});
+
+document.querySelectorAll('.delete-horario').forEach(button => {
+    button.addEventListener('click', async function() {
+        const id = this.dataset.horarioId;
+        if (!confirm('¿Estás seguro de que quieres eliminar este horario?')) return;
+        
+        try {
+            const response = await fetch(`/horario/${id}`, {
+                method: 'DELETE'
+            });
+
+            if (response.ok) {
+                location.reload();
+            } else {
+                const error = await response.json();
+                alert(error.error || 'Error al eliminar el horario');
+            }
+        } catch (error) {
+            alert('Error de conexión');
+        }
+    });
+});
+</script>
+{% endblock %}

@@ -1,0 +1,191 @@
+2025-10-27 17:52:30,440 - INFO - Nuevo usuario registrado: dylancho7@hotmail.com
+2025-10-27 17:52:57,321 - INFO - Usuario dylancho7@hotmail.com ha iniciado sesión
+2025-10-27 17:54:02,180 - WARNING - Intento de inicio de sesión fallido para dylancho7@hotmail.com
+2025-10-27 17:54:10,048 - WARNING - Intento de inicio de sesión fallido para dylancho7@hotmail.com
+2025-10-27 17:54:28,069 - INFO - Nuevo usuario registrado: ejemplo@gmail.com
+2025-10-27 17:54:48,306 - INFO - Usuario ejemplo@gmail.com ha iniciado sesión
+2025-10-27 18:06:45,245 - INFO - Usuario ejemplo@gmail.com ha iniciado sesión
+2025-10-27 18:07:01,568 - INFO - Nuevo usuario registrado: ejemplo1@gmail.com
+2025-10-27 18:07:14,077 - WARNING - Intento de inicio de sesión fallido para ejemplo1@gamil.com
+2025-10-27 18:11:13,332 - WARNING - Intento de inicio de sesión fallido para ejemplo1@gmail.com
+2025-10-27 18:11:28,783 - INFO - Usuario ejemplo1@gmail.com ha iniciado sesión
+2025-10-27 18:19:18,659 - INFO - Usuario ejemplo1@gmail.com accedió a su dashboard
+2025-10-27 18:19:26,654 - INFO - Usuario ejemplo1@gmail.com ha cerrado sesión
+2025-10-27 18:19:41,205 - INFO - Usuario ejemplo1@gmail.com ha iniciado sesión
+2025-10-27 18:19:41,300 - INFO - Usuario ejemplo1@gmail.com accedió a su dashboard
+2025-10-27 18:19:47,953 - INFO - Usuario ejemplo1@gmail.com ha cerrado sesión
+2025-10-27 18:20:01,972 - INFO - Usuario dylancho7@hotmail.com ha iniciado sesión
+2025-10-27 18:20:02,072 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:20:02,079 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:20:02,337 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:20:02,338 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:20:02,515 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:20:02,516 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:20:02,765 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:20:02,766 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:20:02,955 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:20:02,956 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:20:03,162 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:20:03,163 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:20:03,402 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:20:03,406 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:20:03,611 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:20:03,613 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:20:03,803 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:20:03,804 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:20:04,042 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:20:04,043 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:20:05,176 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:20:05,177 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:20:05,372 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:20:05,373 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:20:05,561 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:20:05,562 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:20:05,757 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:20:05,757 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:20:05,949 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:20:05,950 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:20:06,168 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:20:06,170 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:20:06,360 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:20:06,361 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:20:06,534 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:20:06,535 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:20:06,705 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:20:06,706 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:20:06,888 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:20:06,888 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:20:10,559 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:20:10,561 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:20:10,741 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:20:10,742 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:20:10,910 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:20:10,911 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:20:11,099 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:20:11,100 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:20:11,314 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:20:11,316 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:20:11,491 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:20:11,492 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:20:11,666 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:20:11,667 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:20:11,839 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:20:11,840 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:20:12,017 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:20:12,018 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:20:12,195 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:20:12,196 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:35,436 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:35,449 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:35,924 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:35,925 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:36,268 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:36,269 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:36,510 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:36,511 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:36,829 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:36,833 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:37,048 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:37,050 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:37,228 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:37,229 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:37,473 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:37,474 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:37,656 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:37,657 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:37,844 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:37,845 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:38,960 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:38,961 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:39,137 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:39,138 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:39,313 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:39,314 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:39,510 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:39,511 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:39,697 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:39,698 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:39,874 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:39,875 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:40,049 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:40,050 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:40,221 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:40,222 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:40,395 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:40,396 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:40,572 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:40,573 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:45,881 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:45,882 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:46,078 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:46,080 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:46,262 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:46,263 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:46,439 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:46,440 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:46,618 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:46,619 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:46,803 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:46,804 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:49,901 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:49,902 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:51,148 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:51,149 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:51,332 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:51,333 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:51,504 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:51,505 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:51,676 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:51,677 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:51,926 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:51,927 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:52,231 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:52,232 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:52,434 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:52,435 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:52,613 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:52,614 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:52,804 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:52,805 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:52,985 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:52,986 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:58,276 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:58,277 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:58,460 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:58,462 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:58,648 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:58,649 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:58,819 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:58,819 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:58,987 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:58,988 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:59,170 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:59,171 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:59,339 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:59,340 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:59,520 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:59,521 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:59,716 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:59,718 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:22:59,923 - INFO - Administrador dylancho7@hotmail.com accedió al dashboard
+2025-10-27 18:22:59,924 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:24:46,913 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:25:06,671 - INFO - Usuario dylancho7@hotmail.com ha iniciado sesión como admin
+2025-10-27 18:25:06,818 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:25:20,955 - INFO - Usuario ejemplo1@gmail.com ha iniciado sesión como user
+2025-10-27 18:25:22,864 - INFO - Usuario ejemplo1@gmail.com ha cerrado sesión
+2025-10-27 18:25:46,165 - INFO - Usuario dylancho7@hotmail.com ha iniciado sesión como admin
+2025-10-27 18:25:46,254 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:30:08,559 - WARNING - Intento de inicio de sesión fallido para dylancho7@hotmail.com
+2025-10-27 18:30:25,518 - INFO - Nuevo usuario registrado: admin@gmail.com con rol admin
+2025-10-27 18:30:53,985 - INFO - Usuario admin@gmail.com ha iniciado sesión como admin
+2025-10-27 18:30:54,097 - INFO - Admin admin@gmail.com accedió al dashboard
+2025-10-27 18:30:54,104 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:32:09,212 - INFO - Usuario admin@gmail.com ha iniciado sesión como admin
+2025-10-27 18:32:09,304 - INFO - Admin admin@gmail.com accedió al dashboard
+2025-10-27 18:32:09,311 - ERROR - Error en el dashboard: Could not build url for endpoint 'users'. Did you mean 'list_users' instead?
+2025-10-27 18:32:26,050 - INFO - Nuevo usuario registrado: usuario@gmail.com con rol user
+2025-10-27 18:32:44,481 - WARNING - Intento de inicio de sesión fallido para usuario1@gmail.com
+2025-10-27 18:33:24,893 - INFO - Usuario usuario@gmail.com ha iniciado sesión como user
+2025-10-27 18:33:25,082 - INFO - Usuario usuario@gmail.com accedió al dashboard
+2025-10-27 18:33:28,909 - INFO - Usuario usuario@gmail.com ha cerrado sesión
